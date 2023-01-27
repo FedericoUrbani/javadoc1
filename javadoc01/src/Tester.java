@@ -1,7 +1,15 @@
-// breve descrizione tester: urbani federico
+/**
+ * Tester: class that contains main method
+ * @author federico
+ *
+ */
+
 public class Tester {
 
-    // breve descrizione main: urbani federico
+    /**
+     * main class that contains operations
+     * @author federico
+     */
     public static void main(String[] args) {
         WordGames a= new WordGames();
         System.out.println(  a.addHelloWord("marco"));

@@ -1,12 +1,27 @@
-// breve descrizione WordGames: urbani federico
+/**
+ * WordGames class wich contain methods: addHelloWord, getFullName
+ *
+ * @author federico
+ */
 public class WordGames {
 
-    // breve descrizione addHelloWord: urbani federico
+    /**
+     * addHelloWord method : append a string as parameter,
+     * @param word to the word "Hello"
+     *
+     * @author federico
+     */
     public String addHelloWord(String word){
         String b="Hello "+word;
         return b;
     }
-    // breve descrizione getFullName: urbani federico
+    /**
+     *  getFullName method : parameters concatenation
+     *  @param name  +
+     *  @param surname
+     *  @author federico
+     *
+     */
     public String getFullName(String name,String surname){
         String b=name.concat(surname);
         return b;
